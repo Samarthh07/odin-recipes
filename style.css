@@ -1,138 +1,53 @@
-#main {
-    background-color: #1F2833;
+body {
+    background-color: beige;
 }
 
-.footer {
-    position: fixed;
-    padding: 10px 10px 15px 10px;
-    bottom: 0;
-    width: 100%;
-    /* Height of the footer*/
-    height: 40px;
-    background: transparent;
-}
-
-/* Behavior of links */
-
-a:link {
-    color: #C5C6C7;
-    background-color: transparent;
-    text-decoration: none;
-}
-
-a:visited {
-    color: #C5C6C7;
-    background-color: transparent;
-    text-decoration: none;
-}
-
-a {
-    position: relative; 
-    display: block;
-    text-align: center;
-    background: #333;
-    border-radius: 50%;
-    font-size: 20px;
-    color: #666;
-    transition: .5s;
-}
-
-a::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: auto;
-    height: auto;
-    border-radius: 50%;
-    transition: .5s;
-    transform: scale(.9);
-    z-index: -1;
-}
-
-a:hover::before {
-    transform: scale(1.1);
-    text-shadow:#66FCF1;
-}
-
-a:hover {
-    color: #fae848;
-    text-shadow: 0 0 5px #66FCF1;
-}
-
-h1 {
-    font-size: 100px;
-}
-
-h1,h3 {
-    color: #66FCF1;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    opacity: 1;
+#top {
+    color: chocolate;
+    font-size: 35px;
     font-weight: bold;
-}
-
-h3 {
-    font-size: 50px;
-}
-
-#recipe-list {
     text-align: center;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#img-one {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 450px;
+    height: 450px;
+}
+
+#p {
+    text-align: justify;
+    color: black;
+    font-size: 23px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#sub-headings {
+    color: sienna;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 ul {
+    color: black;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
-        margin: 0;
-        padding: 0;
-        display: flex;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
-      
-ul li {
-        list-style: none;
-        margin: 0 15px;
-    }
-      
-ul li a {
-        position: relative; 
-        display: block;
-        width: 60px;
-        height: 60px;
-        text-align: center;
-        line-height: 63px;
-        background: #333;
-        border-radius: 50%;
-        font-size: 30px;
-        color: #666;
-        transition: .5s;
-    }
-      
-ul li a::before {
-        content: '';
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        border-radius: 50%;
-        background: black;
-        transition: .5s;
-        transform: scale(.9);
-        z-index: -1;
-    }
-      
-ul li a:hover::before {
-        transform: scale(1.1);
-        box-shadow: 0 0 15px #66FCF1;
-    }
-      
-ul li a:hover {
-        color: #66FCF1;
-        box-shadow: 0 0 5px #66FCF1;
-        text-shadow: 0 0 5px #66FCF1;
-    }
+ol {
+    color: black;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: chocolate;   
+}
